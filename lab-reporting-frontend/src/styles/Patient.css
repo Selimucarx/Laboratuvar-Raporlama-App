@@ -1,0 +1,66 @@
+.patient {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .patient form {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px; 
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .patient input[type="text"],
+  .patient select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .patient button {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .patient button:hover {
+    background-color: #0056b3;
+  }
+  
+  .list-container {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .list-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .list-container th, .list-container td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .list-container th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .list-container tr:hover {
+    background-color: #f5f5f5;
+  }
+  
